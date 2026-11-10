@@ -1,0 +1,189 @@
+:root {
+  --accent: #0e7a4f;
+  --accent-dark: #0a5c3c;
+  --bg: #f4f6f5;
+  --card: #ffffff;
+  --text: #1c2420;
+  --muted: #5f6b64;
+  --border: #e2e8e4;
+  --danger: #c0392b;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  -webkit-text-size-adjust: 100%;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: var(--card);
+  border-bottom: 1px solid var(--border);
+  padding: 12px 16px 0;
+}
+
+h1 { font-size: 1.25rem; margin: 0 0 10px; }
+
+.tabs { display: flex; gap: 8px; }
+
+.tab {
+  flex: 1;
+  min-height: 44px;
+  padding: 10px;
+  background: none;
+  border: none;
+  border-bottom: 3px solid transparent;
+  font-size: 1rem;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.tab.active { color: var(--accent-dark); border-bottom-color: var(--accent); font-weight: 700; }
+
+main {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 16px 16px 96px;
+}
+
+.toolbar {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.toolbar select { flex: 1; min-width: 0; }
+
+.btn {
+  min-height: 44px;
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--card);
+  color: var(--text);
+  font-size: 1rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.btn.primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+  font-weight: 700;
+}
+
+.btn.danger { color: var(--danger); }
+
+.btn.small { min-height: 36px; padding: 6px 12px; font-size: 0.9rem; }
+
+.cards { display: flex; flex-direction: column; gap: 10px; }
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 14px 16px;
+}
+
+.bike-card { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; }
+
+.bike-title { font-size: 1.1rem; font-weight: 700; }
+
+.bike-sub { color: var(--muted); margin-top: 2px; }
+
+.bike-last { color: var(--muted); font-size: 0.9rem; margin-top: 6px; }
+
+.card-actions { display: flex; flex-direction: column; gap: 6px; flex-shrink: 0; }
+
+.entry-head { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+
+.badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 999px;
+  color: #fff;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.entry-bike { font-weight: 700; }
+
+.entry-meta { color: var(--muted); margin-top: 6px; font-size: 0.95rem; }
+
+.entry-note { margin-top: 6px; white-space: pre-wrap; }
+
+.entry-card .card-actions { flex-direction: row; }
+
+.empty { color: var(--muted); text-align: center; padding: 32px 12px; }
+
+select, input, textarea { font: inherit; color: var(--text); }
+
+.toolbar select, .field input, .field select, .field textarea {
+  padding: 10px 12px;
+  min-height: 44px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: #fff;
+  width: 100%;
+}
+
+.toolbar select { width: auto; }
+
+.field { display: flex; flex-direction: column; gap: 6px; margin-bottom: 12px; }
+
+.field > span { font-size: 0.9rem; color: var(--muted); font-weight: 700; }
+
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  z-index: 20;
+}
+
+.modal[hidden] { display: none; }
+
+.modal-card {
+  background: var(--card);
+  width: 100%;
+  max-width: 680px;
+  border-radius: 16px 16px 0 0;
+  padding: 18px 16px calc(16px + env(safe-area-inset-bottom));
+  max-height: 92vh;
+  overflow-y: auto;
+}
+
+.modal-card h2 { margin: 0 0 14px; font-size: 1.15rem; }
+
+.modal-actions { display: flex; gap: 8px; justify-content: flex-end; margin-top: 6px; }
+
+.toast {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 24px;
+  background: #1c2420;
+  color: #fff;
+  padding: 12px 18px;
+  border-radius: 10px;
+  z-index: 30;
+  max-width: 90vw;
+  font-size: 0.95rem;
+}
+
+.toast[hidden] { display: none; }
+
+@media (min-width: 720px) {
+  .modal { align-items: center; }
+  .modal-card { border-radius: 16px; }
+}
