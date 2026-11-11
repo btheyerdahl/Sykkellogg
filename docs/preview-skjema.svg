@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="900" viewBox="0 0 390 900" font-family="-apple-system,Segoe UI,Roboto,Arial,sans-serif">
+<rect width="390" height="900" fill="#f4f6f5"/><rect width="390" height="900" fill="rgba(0,0,0,0.45)"/>
+<rect x="0" y="410" width="390" height="490" rx="16" fill="#ffffff"/>
+<text x="16" y="440" font-size="18" font-weight="700" fill="#1c2420">Ny service</text>
+<text x="16" y="462" font-size="13" font-weight="700" fill="#5f6b64">Sykkel</text>
+<rect x="16" y="468" width="358" height="44" rx="10" fill="#fff" stroke="#e2e8e4"/>
+<text x="28" y="496" font-size="15" fill="#1c2420">Anna (Terrengsykkel, 1 240 km) ▾</text>
+<text x="16" y="538" font-size="13" font-weight="700" fill="#5f6b64">Komponent</text>
+<rect x="16" y="544" width="358" height="44" rx="10" fill="#fff" stroke="#e2e8e4"/>
+<text x="28" y="572" font-size="15" fill="#1c2420">Kjede ▾</text>
+<text x="16" y="614" font-size="13" font-weight="700" fill="#5f6b64">Dato</text>
+<rect x="16" y="620" width="358" height="44" rx="10" fill="#fff" stroke="#e2e8e4"/>
+<text x="28" y="648" font-size="15" fill="#1c2420">2026-11-11</text>
+<text x="16" y="690" font-size="13" font-weight="700" fill="#5f6b64">Km-stand ved bytte</text>
+<rect x="16" y="696" width="358" height="44" rx="10" fill="#fff" stroke="#e2e8e4"/>
+<text x="28" y="724" font-size="15" fill="#1c2420">1 150</text>
+<text x="16" y="766" font-size="13" font-weight="700" fill="#5f6b64">Merknad (valffritt: modell, pris osv.)</text>
+<rect x="16" y="772" width="358" height="44" rx="10" fill="#fff" stroke="#e2e8e4"/>
+<text x="28" y="800" font-size="15" fill="#1c2420">Shimano Deore, ca. 250 kr</text>
+<rect x="16" y="842" width="90" height="44" rx="10" fill="#ffffff" stroke="#e2e8e4"/><text x="61.0" y="869.04" font-size="14" font-weight="400" fill="#1c2420" text-anchor="middle">Avbryt</text>
+<rect x="264" y="842" width="110" height="44" rx="10" fill="#0e7a4f" stroke="#0e7a4f"/><text x="319.0" y="869.04" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">Lagre</text>
+</svg>

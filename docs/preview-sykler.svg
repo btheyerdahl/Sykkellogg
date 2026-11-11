@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="552" viewBox="0 0 390 552" font-family="-apple-system,Segoe UI,Roboto,Arial,sans-serif">
+<rect width="390" height="552" fill="#f4f6f5"/><rect width="390" height="86" fill="#ffffff"/><rect y="85" width="390" height="1" fill="#e2e8e4"/>
+<text x="16" y="30" font-size="20" font-weight="700" fill="#1c2420">Sykkellogg</text>
+<rect x="8" y="40" width="187" height="44" fill="none"/><rect x="8" y="80" width="187" height="4" fill="#0e7a4f"/>
+<text x="101" y="67" font-size="16" font-weight="700" fill="#0a5c3c" text-anchor="middle">Sykler</text>
+<rect x="195" y="40" width="187" height="44" fill="none"/><rect x="195" y="80" width="187" height="4" fill="transparent"/>
+<text x="288" y="67" font-size="16" font-weight="400" fill="#5f6b64" text-anchor="middle">Servicelogg</text>
+<rect x="16" y="102" width="358" height="44" rx="10" fill="#0e7a4f"/><text x="195.0" y="130" font-size="16" font-weight="700" fill="#fff" text-anchor="middle">+ Legg til sykkel</text>
+<rect x="16" y="158" width="358" height="86" rx="14" fill="#ffffff" stroke="#e2e8e4"/>
+<text x="32" y="188" font-size="18" font-weight="700" fill="#1c2420">Anna</text>
+<text x="32" y="208" font-size="14" fill="#5f6b64">Terrengsykkel · 1 240 km</text>
+<text x="32" y="227" font-size="13" fill="#5f6b64">Siste service: Kjede · 12.09.2025 (ved 1 150 km)</text>
+<rect x="268" y="172" width="74" height="34" rx="10" fill="#ffffff" stroke="#e2e8e4"/><text x="305.0" y="193.68" font-size="13" font-weight="400" fill="#1c2420" text-anchor="middle">Rediger</text>
+<rect x="268" y="212" width="74" height="34" rx="10" fill="#ffffff" stroke="#e2e8e4"/><text x="305.0" y="233.68" font-size="13" font-weight="400" fill="#c0392b" text-anchor="middle">Slett</text>
+<rect x="16" y="254" width="358" height="86" rx="14" fill="#ffffff" stroke="#e2e8e4"/>
+<text x="32" y="284" font-size="18" font-weight="700" fill="#1c2420">Erik</text>
+<text x="32" y="304" font-size="14" fill="#5f6b64">El-sykkel · 3 150 km</text>
+<text x="32" y="323" font-size="13" fill="#5f6b64">Siste service: Dekk · 02.10.2025 (ved 3 050 km)</text>
+<rect x="268" y="268" width="74" height="34" rx="10" fill="#ffffff" stroke="#e2e8e4"/><text x="305.0" y="289.68" font-size="13" font-weight="400" fill="#1c2420" text-anchor="middle">Rediger</text>
+<rect x="268" y="308" width="74" height="34" rx="10" fill="#ffffff" stroke="#e2e8e4"/><text x="305.0" y="329.68" font-size="13" font-weight="400" fill="#c0392b" text-anchor="middle">Slett</text>
+<rect x="16" y="350" width="358" height="86" rx="14" fill="#ffffff" stroke="#e2e8e4"/>
+<text x="32" y="380" font-size="18" font-weight="700" fill="#1c2420">Nora</text>
+<text x="32" y="400" font-size="14" fill="#5f6b64">Barnesykkel · 310 km</text>
+<text x="32" y="419" font-size="13" fill="#5f6b64">Siste service: Slanger · 15.07.2025 (ved 290 km)</text>
+<rect x="268" y="364" width="74" height="34" rx="10" fill="#ffffff" stroke="#e2e8e4"/><text x="305.0" y="385.68" font-size="13" font-weight="400" fill="#1c2420" text-anchor="middle">Rediger</text>
+<rect x="268" y="404" width="74" height="34" rx="10" fill="#ffffff" stroke="#e2e8e4"/><text x="305.0" y="425.68" font-size="13" font-weight="400" fill="#c0392b" text-anchor="middle">Slett</text>
+<rect x="16" y="446" width="358" height="86" rx="14" fill="#ffffff" stroke="#e2e8e4"/>
+<text x="32" y="476" font-size="18" font-weight="700" fill="#1c2420">Ola</text>
+<text x="32" y="496" font-size="14" fill="#5f6b64">Landeveisssykkel · 4 820 km</text>
+<text x="32" y="515" font-size="13" fill="#5f6b64">Ingen service registrert ennå</text>
+<rect x="268" y="460" width="74" height="34" rx="10" fill="#ffffff" stroke="#e2e8e4"/><text x="305.0" y="481.68" font-size="13" font-weight="400" fill="#1c2420" text-anchor="middle">Rediger</text>
+<rect x="268" y="500" width="74" height="34" rx="10" fill="#ffffff" stroke="#e2e8e4"/><text x="305.0" y="521.68" font-size="13" font-weight="400" fill="#c0392b" text-anchor="middle">Slett</text>
+</svg>
